@@ -1,21 +1,3 @@
-/*
---------------------------------------------------------
-
-[ INSTA , Javscript ]
-
-  Template Name : INSTA - Responsive Onepage Resume Template
-  
-  Version       :  1.0 
-  
-  Author        :  Pixel_Factory
-  
-  Author URI    :  http://themeforest.net/user/Pixel_Factory
-  
-  Author Email  : h.nafees.anwar@gmail.com
-
---------------------------------------------------------
-*/
-
 /*  ------------------
     Remove Preloader
     ------------------  */
@@ -268,16 +250,16 @@ $(document).ready(function () {
         -------------------------------  */
 
     $('#google-map').gMap({
-        latitude: 31.562130,
-        longitude: 74.319460,
+        latitude: -6.3446623,
+        longitude: 106.8658817,
         maptype: 'TERRAIN',
         scrollwheel: false,
         zoom: 14,
         markers: [
             {
-                latitude: 31.562130,
-                longitude: 74.319460,
-                html: "I am Here!",
+                latitude: -6.3446623,
+				longitude: 106.8658817,
+                html: "flz was here :D",
                 icon: {
                     image: "images/icon/map_marker.png",
                     iconsize: [46, 46],
